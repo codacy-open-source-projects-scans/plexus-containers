@@ -1,0 +1,37 @@
+ -----
+ plexus-containers (deprecated)
+ -----
+ Hervé Boutemy
+ -----
+ 2009-10-06
+ -----
+
+Overview
+
+  <<<plexus-containers>>> is Plexus' <inversion-of-control> (IoC) container
+
+  * {{{./plexus-container-default}plexus-container-default}} is the IoC container itself,
+
+  []
+
+ and companion tools:
+ 
+  * {{{./plexus-component-metadata}plexus-component-metadata}}(-maven-plugin) is a Maven plugin to generate Plexus' <<<{{{./plexus-container-default/plexus-components.html}component.xml}}>>> from
+  source javadoc tags and Java 5 class annotations,
+
+  * {{{./plexus-component-annotations}plexus-component-annotations}} provides the Java 5 annotations for plexus components,
+
+  * {{{./plexus-component-javadoc}plexus-component-javadoc}} provides javadoc taglets to add plexus documentation to javadoc.
+
+  []
+
+
+  <<<plexus-containers>>>' structure has evolved over time: see {{{./history.html}history}} to understand its changes.
+  
+* Deprecated
+
+  Plexus Containers is deprecated, replaced by {{{https://www.eclipse.org/sisu/}Eclipse Sisu}}
+  ({{{https://github.com/eclipse/sisu.inject}sisu.inject}}, {{{https://github.com/eclipse/sisu.plexus}sisu.plexus}}, {{{https://github.com/eclipse/sisu.mojos}sisu.mojos}}):
+  see each Plexus Containers component (container, Maven plugin and annotations) documentation for more details on how to replace each one.
+
+   See also {{{https://maven.apache.org/maven-jsr330.html}Maven & JSR-330}} for more details in Maven context.
